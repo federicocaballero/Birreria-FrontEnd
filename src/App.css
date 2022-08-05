@@ -35,33 +35,36 @@
   overflow-x: scroll;
 }
 
+.sucursal1{
+  background: url(https://labirreria.com.ar/wp-content/uploads/2017/02/IMG_1273Birreria-e1491331181420-uai-1440x904.jpg);
+}
+
+.sucursal2{
+  background: url(https://labirreria.com.ar/wp-content/uploads/2017/03/LaBirreria_PM-24-uai-1440x960.jpg);
+}
+
+.sucursal3{
+  background: url(https://labirreria.com.ar/wp-content/uploads/2017/02/IMG_8660Birreria-uai-1440x960.jpg);
+}
+
+.sucursal4{
+  background: url(https://labirreria.com.ar/wp-content/uploads/2017/02/fondolocalweb-uai-1440x960.jpg);
+}
+
+.sucursal1 , .sucursal2, .sucursal3, .sucursal4{
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  gap: 10px;
+  padding: 20px;
+  
+  background-repeat: no-repeat; /*para que no repita la imagen */
+  background-size: cover; /*Imagen al %100 del ancho*/
+  background-attachment: fixed; /*Fija la imagen en el scroll*/
+}
 
 /* HASTA ACA */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
