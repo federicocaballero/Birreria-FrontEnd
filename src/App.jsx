@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import 'animate.css';
 import Navbar from './components/Navbar';
 import Portada from './components/Portada';
 import Birras from './components/Birras';

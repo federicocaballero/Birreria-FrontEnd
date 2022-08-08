@@ -4,7 +4,7 @@ const Birras = (images) =>{
    
     const imagenes = images.images;
     return(
-        <div className="contenedor-items">
+        <div className="contenedor-items" id="birras">
             <img className="item" src={imagenes[0].url} alt={imagenes[0].title} />
             <img className="item" src={imagenes[1].url} alt={imagenes[1].title} />
             <img className="item" src={imagenes[2].url} alt={imagenes[2].title} />
