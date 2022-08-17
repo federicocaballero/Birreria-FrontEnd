@@ -26,7 +26,7 @@ const Navbar = () =>{
                             <a className="nav-link" href="#">Franquicias</a>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="#">Contacto</a>
+                            <a className="nav-link" href="#contacto">Contacto</a>
                             </li>
                             <li className="nav-item">
                             <a className="nav-link" target="blank" href="https://www.instagram.com/fedecaballero11/">
